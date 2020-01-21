@@ -11,6 +11,7 @@ URL_GOOGLE_CHROME="https://dl.google.com/linux/direct/google-chrome-stable_curre
 DIRETORIO_DOWNLOADS="$HOME/Downloads/programas"
 
 PROGRAMAS_PARA_INSTALAR=(
+  git
   whatsapp-desktop 
   mint-meta-codecs
   guvcview
@@ -84,7 +85,7 @@ for nome_do_programa in ${PROGRAMAS_PARA_INSTALAR[@]}; do
 done
 
 for nome_do_programa in ${PROGRAMAS_PARA_DESINSTALAR[@]}; do
-  if ! dpkg -l | grep -q $nome_do_programa; then # Só instala se já não estiver instalado
+  if ! dpkg -l | grep -q $nome_do_programa; then
     apt remove "$nome_do_programa" -y
   else
     echo "[DESISTALADO] - $nome_do_programa"
