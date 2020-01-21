@@ -15,13 +15,9 @@ PROGRAMAS_PARA_INSTALAR=(
   git
   whatsapp-desktop 
   mint-meta-codecs
-  guvcview
-  flameshot
   steam-installer
   steam-devices
   steam:i386
-  ratbagd
-  piper
   lutris
   libvulkan1
   libvulkan1:i386
