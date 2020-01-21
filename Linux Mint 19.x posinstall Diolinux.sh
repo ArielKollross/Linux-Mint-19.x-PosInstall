@@ -7,6 +7,7 @@ PPA_GRAPHICS_DRIVERS="ppa:graphics-drivers/ppa"
 URL_WINE_KEY="https://dl.winehq.org/wine-builds/winehq.key"
 URL_PPA_WINE="https://dl.winehq.org/wine-builds/ubuntu/"
 URL_GOOGLE_CHROME="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+URL_CODE="https://update.code.visualstudio.com/1.41.1/linux-deb-x64/stable"
 
 DIRETORIO_DOWNLOADS="$HOME/Downloads/programas"
 
