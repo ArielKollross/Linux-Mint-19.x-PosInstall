@@ -38,6 +38,8 @@ PROGRAMAS_PARA_DESINSTALAR=(
   hexchat
   libreoffice-math
   libreoffice-draw
+  libreoffice-base
+  gnote
 )
 # ---------------------------------------------------------------------- #
 
