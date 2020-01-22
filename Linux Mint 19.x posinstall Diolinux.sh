@@ -3,6 +3,7 @@
 PPA_LIBRATBAG="ppa:libratbag-piper/piper-libratbag-git"
 PPA_LUTRIS="ppa:lutris-team/lutris"
 PPA_GRAPHICS_DRIVERS="ppa:graphics-drivers/ppa"
+PPA_PAPIRUS_ICON="ppa:papirus/papirus"
 
 URL_WINE_KEY="https://dl.winehq.org/wine-builds/winehq.key"
 URL_PPA_WINE="https://dl.winehq.org/wine-builds/ubuntu/"
